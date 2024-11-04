@@ -1,0 +1,67 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Header (h1) Styles */
+h1 {
+    color: #2c3e50; /* Dark navy blue */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Single-column layout container */
+.single-column-layout {
+    max-width: 800px; /* Set a maximum width for readability */
+    margin: 0 auto; /* Center the content on the page */
+    padding: 20px; /* Add padding to the container */
+    background-color: white; /* White background for the content area */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the container */
+    border-radius: 10px;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 30px; /* Space between sections */
+}
+
+/* Text Styles in Sections */
+.section h2 {
+    color: #34495e; /* Slightly darker blue for subheadings */
+}
+
+.section p, .section ul, .section li {
+    color: #333; /* Dark gray for text */
+}
+
+/* Image Styling */
+.section img {
+    width: 100%;
+    max-width: 40px;
+    height: 100;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+a {
+    color: #3498db; /* Light blue */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9; /* Darker blue on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .single-column-layout {
+        padding: 10px; /* Less padding on small screens */
+    }
+}
